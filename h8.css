@@ -1,0 +1,262 @@
+
+      #data{
+          display: none;
+      }
+      
+    div.pb {
+     float: right;   
+     color: white;
+     display: inline-block;
+}
+    .pmlabel{
+            display: block;
+            color: white;
+        }
+    span.red{
+            color: red;
+        }
+      span.white{
+            color: white;
+        }
+      .help-block{
+          color: red;
+          font-size: 11px;
+      }
+        body{
+            background-image: url(http://cs-server.usc.edu:45678/hw/hw8/images/bg.jpg);
+            overflow-x: scroll;
+            overflow-y: scroll;
+            background-size: cover;
+            background-repeat: no-repeat; 
+    background-attachment:fixed;
+            }
+        h2{
+            text-align: center;
+        }
+        hr{
+            color: white;
+            height: 50px;
+        }
+        .bkg{
+            background-color:rgba(0,0,0,0.2);           
+        }
+      .radio-inline{
+         color: white;
+     }
+      tr.gr{
+            background-color: #f0f0f0;
+        }
+        img.logo{
+            width: 40%;
+            height: auto;
+        }
+        .poweredby{
+            color: white;
+        }
+      div.logo{
+          align: right;
+      }
+        #next_hours{
+ 
+            background-color: white;
+            
+        }
+        tr.headrow{
+            background-color:  #337ab7;
+            color: white;
+        }
+        td.view_details{
+            color: #337ab7; 
+        }
+        .t3{
+            text-align: center;
+            padding: 5px;
+        }
+      
+        #days{
+            background-color: black;
+            color: white;
+        }
+        
+        #d1{
+            background-color: #337ab7;
+            border-radius: 5px 5px 5px 5px;
+        }
+        #d2{
+            background-color: red;
+            border-radius: 5px 5px 5px 5px;
+        }
+        #d3{
+            background-color:#f0ad4e;
+            border-radius: 5px 5px 5px 5px;
+        }
+       #d4{
+            background-color: #7FBE00;
+            border-radius: 5px 5px 5px 5px;
+        }
+       #d5{
+            background-color: mediumpurple;
+            border-radius: 5px 5px 5px 5px;
+        }
+       #d6{
+            background-color: palevioletred;
+            border-radius: 5px 5px 5px 5px;
+        }
+       #d7{
+            background-color: deeppink;
+            border-radius: 5px 5px 5px 5px;
+        }
+      img.tab3_icon{
+          width: 75%;
+      }
+      div.mintemp, div.maxtemp{
+          font-size: 30px;
+          font-weight: bolder;
+      }
+      div.day, div.date{
+          font-weight: bold;
+      }
+       tr.rn1{
+           background-color: palevioletred;
+           color: white;
+          text-align: center;
+       }
+       img.icon{
+           width: 50%;
+       }
+      tr.gr{
+            background-color: #f0f0f0;
+        }
+      span.low{
+            color: blue;
+      }
+       span.high{
+            color: green;
+      }
+      span.tempvalue{
+          font-weight:800;
+          font-size: 400%;
+      }
+      span.degree{
+          font-weight:800;
+          font-size: 400%;
+      }
+      .summary{
+          font-weight: bold;
+      }
+      div.icon{
+          
+          text-align: center;
+      }
+      div.rt2{
+          text-align: center;
+      }
+      img.fb{          
+          width: 10%;
+      }
+      td.lowhigh{
+          text-align: center;
+      }
+      
+      img.img_summary{
+          width: 75%;
+          height: auto;
+          margin: 0 auto;
+      }
+      #map{
+          width: 100%;
+          height: 100%;
+      }
+      .modal-body{
+          text-align: center;
+      }
+      .modal-title{
+          font-weight: bold;
+      }
+      .mdata{
+          text-align: center;
+          width: 100%;
+      }
+      span.modalday{
+      font-weight: bold;
+      font-size: 150%;
+      }
+      span.wcondn{
+          color: orange;
+          font-size: 150%;
+          font-weight: bold;
+      }
+      img.modalimg{
+          width: 20%;
+      }
+      
+      ul.nav-tabs>li{
+          background-color: #f0f0f0;
+          color: blue;
+          margin-left: 2px;
+      }
+      
+      #current{
+          margin: 0;
+          padding: 0;
+      }
+      #m1{
+          height: 450px;
+          border: 1px;
+          border-color: white;
+          margin: 0;
+          padding: 0;
+      }
+      
+      table.main{
+          padding-left: 0;
+          padding-right: 0;
+          margin-left: 0;
+          margin-right: 0;
+      }
+      
+      .line{
+          padding-left: 0;
+          padding-right: 0;
+      }
+      
+      .nav-tabs { min-width: 600px; }
+      #myTab li.active a{
+          background-color:#337ab7; 
+          color: white;
+          border-bottom-color: transparent;
+      }
+table.table-striped{
+    text-align: center;
+}
+      .sh{
+          font-weight: bold;
+      }
+      
+      .ctb, .tab3{
+          width: 100%;
+      }
+      
+      .table-condensed, .head{
+          text-align: center;
+      }
+      
+      @media (min-width: 481px){
+          .img_summary{
+              max-width: 20%;
+          }
+      }
+      
+      @media (max-width: 481px){
+          img.tab3_icon{
+              width: 25%;
+          }
+      }
+      sup{
+          vertical-align: super;
+          font-size:  medium;
+      }
+      .rgtnow{
+          width: 100%;
+      }
+ 
